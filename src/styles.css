@@ -1,0 +1,41 @@
+img {
+  filter: blur(0px) !important;
+}
+
+[class*="VideoPreview__overlay"] {
+  background: rgba(0, 0, 0, 0) !important;
+  backdrop-filter: blur(0px) !important;
+}
+
+[class*="vkitVideoCardPreviewImage__imgBlurred"],
+[class*="VideoRestriction__thumb"],
+[class*="Videos__image"][class*="Videos__explicit"] {
+  filter: blur(0px) !important;
+}
+
+[class*="vkitOverlay__root"]>svg,
+[class*="vkitOverlay__root"]>span {
+  opacity: 0 !important;
+}
+
+[class*="VideoRestriction__text"],
+[class*="VideoRestriction__icon"],
+[class*="VideoRestriction__title"],
+[class*="VideoRestriction__primaryIcon"] {
+  opacity: 0 !important;
+}
+
+[class*="vkitPlaceholder__container"]>[class*="vkuiPlaceholder__icon"],
+[class*="vkitPlaceholder__container"]>[class*="vkuiPlaceholder__header"],
+[class*="vkitPlaceholder__container"]>[class*="vkuiPlaceholder__text"] {
+  opacity: 0 !important;
+}
+
+[class*="vkitVideoPlaylistCardPreview__blurredIcon"]>svg {
+  opacity: 0 !important;
+}
+
+[class*="Videos__explicitLabel"]>img,
+[class*="Videos__explicitLabel"]>span {
+  opacity: 0 !important;
+}
