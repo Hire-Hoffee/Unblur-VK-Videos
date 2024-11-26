@@ -6,7 +6,12 @@
   "author": "HireHoffee",
   "content_scripts": [
     {
-      "matches": ["https://vk.com/*", "https://m.vk.com/*"],
+      "matches": [
+        "https://vk.com/*",
+        "https://m.vk.com/*",
+        "https://vkvideo.ru/*",
+        "https://m.vkvideo.ru/*"
+      ],
       "js": ["src/main.js"],
       "css": ["src/styles.css"]
     }
