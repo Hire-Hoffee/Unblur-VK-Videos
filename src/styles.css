@@ -13,6 +13,7 @@ img {
   filter: blur(0px) !important;
 }
 
+[class*="vkitOverlay__root"]>div>svg,
 [class*="vkitOverlay__root"]>svg,
 [class*="vkitOverlay__root"]>span {
   opacity: 0 !important;
@@ -37,5 +38,10 @@ img {
 
 [class*="Videos__explicitLabel"]>img,
 [class*="Videos__explicitLabel"]>span {
+  opacity: 0 !important;
+}
+
+[class*="vkitRestrictionText__textWhite"],
+[class*="MediaGridItemRestriction"] {
   opacity: 0 !important;
 }
