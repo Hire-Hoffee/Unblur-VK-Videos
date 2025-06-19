@@ -2,7 +2,7 @@
   "manifest_version": 3,
   "name": "Unblur VK videos",
   "version": "0.1.0",
-  "description": "Отключите размытие для видео в VK",
+  "description": "Отключить размытие для видео в VK",
   "author": "HireHoffee",
   "content_scripts": [
     {
